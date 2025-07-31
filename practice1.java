@@ -44,6 +44,9 @@ public static void square(int n){
       System.out.println(s);
 
     }
+     public static void lengthOfNum(String n){
+    System.out.println(n.length()); 
+    }
  public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
    /*   System.out.println("Enter first number");
@@ -70,8 +73,12 @@ primeCheck(n3);
     reverseDigits(n);  
 */
 
-System.out.println("Enter ur Number");
+/*System.out.println("Enter ur Number");
      int n5 = sc.nextInt();
      sumOfDigits(n5);
- }
+*/
+     System.out.println("Enter ur Number");
+     String n = sc.nextLine();
+     lengthOfNum(n);
+}
 }
