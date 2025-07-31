@@ -47,6 +47,14 @@ public static void square(int n){
      public static void lengthOfNum(String n){
     System.out.println(n.length()); 
     }
+        public static int lengthOfNumberWithoutUsingString(int n){
+   int s = 0;
+   while(n > 0){ 
+    n = n/10;
+    s = s +1;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+   }
+   return s;
+    }
  public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
    /*   System.out.println("Enter first number");
@@ -77,8 +85,14 @@ primeCheck(n3);
      int n5 = sc.nextInt();
      sumOfDigits(n5);
 */
-     System.out.println("Enter ur Number");
+ /*     System.out.println("Enter ur Number");
      String n = sc.nextLine();
      lengthOfNum(n);
-}
+ */
+ /*        System.out.println("Enter ur Number");
+        int n = sc.nextInt();
+        int l = lengthOfNumberWithoutUsingString(n);
+        System.out.println(l);
+*/
+ }
 }
